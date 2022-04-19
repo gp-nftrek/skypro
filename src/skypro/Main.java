@@ -22,24 +22,24 @@ public class Main {
 //            System.out.println("Mi gotovy vydat vam kreditnuy katy c limitom " + limit18 + " rub");
 //        }
 //        7
-        int age = 25;
-        int salary = 90000;
-        double wantedSum = 330000;
-        double interestRate = 1.1;
-
-        if (age < 23) {
-            interestRate = interestRate + 0.01;
-        }
-        if (age < 30 && age >= 23) {
-            interestRate = interestRate + 0.005;
-        }
-        if (salary > 80000) {
-            interestRate = interestRate - 0.007;
-        }
-        if ((wantedSum * interestRate) / 12 > salary / 2) {
-            System.out.println("OTKAZ");
-        } else {
-            System.out.println("ODOBRENO. " + "Max platej pri zp " + salary + " raven " + salary / 2 + "rub. Platej po kreditu " + (wantedSum * interestRate) / 12 + " rub.");
-        }
+//        int age = 25;
+//        int salary = 90000;
+//        double wantedSum = 330000;
+//        double interestRate = 1.1;
+//
+//        if (age < 23) {
+//            interestRate = interestRate + 0.01;
+//        }
+//        if (age < 30 && age >= 23) {
+//            interestRate = interestRate + 0.005;
+//        }
+//        if (salary > 80000) {
+//            interestRate = interestRate - 0.007;
+//        }
+//        if ((wantedSum * interestRate) / 12 > salary / 2) {
+//            System.out.println("OTKAZ");
+//        } else {
+//            System.out.println("ODOBRENO. " + "Max platej pri zp " + salary + " raven " + salary / 2 + "rub. Platej po kreditu " + (wantedSum * interestRate) / 12 + " rub.");
+//        }
     }
 }
